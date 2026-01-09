@@ -1,29 +1,40 @@
-AI Mental Health Therapist – SafeSpace
+🧠 SafeSpace – AI Mental Health Therapist
 
-Your compassionate AI companion for emotional support, built with care and real-world tools. SafeSpace listens, understands, and responds with empathy — and knows when to escalate to emergency help.
+SafeSpace is an AI-powered mental health support application built using **Streamlit**, **FastAPI**, **LangGraph**, and **Ollama (MedGemma)**.  
+It provides empathetic, conversational responses to help users reflect on their emotions and thoughts in a supportive, text-based environment.
 
-Equipped with an AI agent architecture, specialist healthcare models (MedGemma), and life-saving tools like emergency calling via Twilio, SafeSpace is designed to support mental well-being — safely and responsibly.
+> ⚠️ This application is intended for educational and supportive purposes only and is not a substitute for professional mental health care.
 
-▶️ Watch the Setup Video 🎥 How to Build SafeSpace – Full Tutorial: 
+---
 
-🚀 Quick Start
+ ✨ Features
 
-Clone the repo and run:
-```
-git clone https://github.com/AIwithhassan/safespace-ai-therapist.git
-```
-
-# Setup UV if not already: 
-
-https://www.youtube.com/watch?v=Dgf7Lp0B_hI
-
-```
-uv sync
-```
+- 💬 Conversational AI therapist interface
+- 🧠 Empathetic, evidence-informed responses using MedGemma
+- ⚡ FastAPI backend with LangGraph agent orchestration
+- 🖥️ Streamlit-based chat UI
+- 🔄 Tool-based agent reasoning
+- 🔒 Text-only interaction focused on privacy
 
 
-That’s it. This command:
 
-Creates a virtual environment (if needed)
-Installs all dependencies from uv.lock
-Sets up the full environment exactly as intended
+ 🏗️ Tech Stack
+
+ Frontend
+- Streamlit
+- Requests
+
+ Backend
+- FastAPI
+- Uvicorn
+- LangGraph
+- LangChain
+
+AI / LLM
+- Ollama
+- MedGemma (`alibayram/medgemma:4b`)
+
+ Environment Management
+- uv
+
+
